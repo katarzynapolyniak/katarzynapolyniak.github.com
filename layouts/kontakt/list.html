@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="contact-information">
+          <h2>{{ .Title }}</h2>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p>Adres: {{ .Site.Params.authorAddress }}</p>
+            </li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>
+              <a href="tel:{{ .Site.Params.authorPhone }}">Telefon: {{ .Site.Params.authorPhone }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="contact-information">
+          <a id="zl-url" class="zl-url" href="https://www.znanylekarz.pl/katarzyna-polyniak/fizjoterapeuta/poznan" rel="nofollow" data-zlw-doctor="katarzyna-polyniak" data-zlw-type="big" data-zlw-opinion="true" data-zlw-hide-branding="true" data-zlw-saas-only="false">Katarzyna Połyniak - ZnanyLekarz.pl</a><script>!function($_x,_s,id){var js,fjs=$_x.getElementsByTagName(_s)[0];if(!$_x.getElementById(id)){js = $_x.createElement(_s);js.id = id;js.src = "//platform.docplanner.com/js/widget.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","zl-widget-s");</script>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{{ end }}

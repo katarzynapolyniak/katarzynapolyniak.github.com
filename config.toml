@@ -1,0 +1,42 @@
+baseURL = "https://katarzynapolyniak.pl/"
+languageCode = "pl-pl"
+paginate = 6
+summarylength = 10
+title = "Katarzyna Połyniak | Fizjoterapia | Animal Flow"
+theme = "blogge-hugo-theme"
+
+[menu]
+  [[menu.main]]
+    name = "Strona Główna"
+    url= ""
+    weight= 1
+  [[menu.main]]
+    name = "O mnie"
+    url= "o-mnie"
+    weight= 2
+  [[menu.main]]
+    name = "Umów wizytę / Kontakt"
+    url= "kontakt"
+    weight= 3
+
+[params]
+  summarylength = 80
+  logo = "images/logo.jpg"
+  author = "Katarzyna Połyniak"
+  authorThumb = "images/author-thumb.jpeg"
+  authorAddress = "Fizjoterapia Katarzyna Połyniak, Iłłakowiczówny 7/6, Poznań"
+  authorPhone = "+48 669 962 405"
+  instaUsername = "katarzynapolyniak_fizjoterapia"
+  facebookUsername = "Fizjoterapia-Katarzyna-Połyniak-100048410837689"
+#  twitterUsername = "mary_astor"
+#  linkedinUsername = "mary_astor"
+#  blogTitle = "Articles"
+#  blogSubTitle = "View the latest news on Blogger"
+  trendingBlogIcon = "images/blog/icon.svg"
+  # Replace the third party URL/API with yours
+  # We're using formspree.io for form handling, paste your formspree url below
+#  fabformURL  = "9AJk8ro"
+#  googleMapAPI = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
+
+[taxonomies]
+  tag = "tags"
