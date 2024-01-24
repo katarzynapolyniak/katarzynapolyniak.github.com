@@ -7,8 +7,18 @@
         <div class="contact-information">
           <h2>{{ .Title }}</h2>
           <ul>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i>
-              <p>Adres: {{ .Site.Params.authorAddress }}</p>
+            <li><h3>Poznań</h3></li>
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p>ul. Iłłakowiczówny 7/6, Poznań <br />(wejście do budynku z tyłu podwórza z szyldem Rehacare)</p>
+            </li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>
+              <a href="tel:{{ .Site.Params.authorPhone }}">Telefon: {{ .Site.Params.authorPhone }}</a>
+            </li>
+            <li><h3>Szamotuły</h3></li>
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p>ul. Braci Czeskich 15, Szamotuły</p>
             </li>
             <li><i class="fa fa-phone" aria-hidden="true"></i>
               <a href="tel:{{ .Site.Params.authorPhone }}">Telefon: {{ .Site.Params.authorPhone }}</a>

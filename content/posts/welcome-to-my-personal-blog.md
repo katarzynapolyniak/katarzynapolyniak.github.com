@@ -6,4 +6,4 @@
 #  featureImage: /images/blog/blog-single.png
 ---
 
-Członek Polskiego Stowarzyszenia Terapii Manualnej, instruktor Animal Flow.
+Fizjoterapeutka, Instruktorka Animal Flow.
