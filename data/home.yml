@@ -1,0 +1,12 @@
+---
+services:
+  - Title: Fizjoterapia Ortopedyczna
+    Summary: Obejmuje diagnostykę i leczenie zachowawcze problemów układu ruchu – dolegliwości powstałych w wyniku przeciążeń i urazów, a także zaburzeń układu ruchu w przebiegu chorób przewlekłych. Dzięki odpowiednio prowadzonej fizjoterapii można pozbyć się uciążliwych dolegliwości bólowych, powrócić do sprawności i aktywności fizycznej.
+    Permalink: oferta
+  - Title: Fizjoterapia Neurologiczna
+    Summary: Rehabilitacja neurologiczna koncentruje się na leczeniu pacjentów z zaburzeniami w obrębie ośrodkowego i obwodowego układu nerwowego. Poprzez indywidualnie dostosowane programy terapeutyczne, fizjoterapia neurologiczna pomaga pacjentom w osiągnięciu maksymalnego potencjału funkcjonalnego i poprawie zdolności do samodzielnego funkcjonowania.
+    Permalink: oferta
+  - Title: Fizjoterapia Stomatologiczna
+    Summary: Fizjoterapia stomatologiczna zajmuje się badaniem funkcjonalnym i leczeniem zaburzeń narządu żucia, do których należą staw skroniowo-żuchwowy, mięśnie żucia oraz układ nerwowy koordynujący ich pracę. Badaniu i terapii poddaje się również odcinek szyjny kręgosłupa, który ściśle współpracuje z narządem żucia.
+    Permalink: oferta
+---

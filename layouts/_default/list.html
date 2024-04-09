@@ -1,5 +1,31 @@
 {{ define "main" }}
 
 {{ partial "feature.html" . }}
+{{ with .Site.Data.home }}
 
+<section class="blog">
+    <div class="container">
+        <div class="row">
+<!--            <div class="col-lg-8">-->
+                {{ range .services }}
+                <div class="col-lg-4">
+                <article class="blog-post">
+                    <div class="blog-post-content">
+                        <div class="blog-post-title">
+                            <a href="{{ .Permalink }}"> {{ .Title }} </a>
+                        </div>
+                        <p>
+                            {{ .Summary }}
+                        </p>
+                        <a href="{{ .Permalink }}" class="blog-post-action">dowiedz się więcej <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </article>
+                </div>
+                {{ end }}
+<!--            </div>-->
+        </div>
+    </div>
+</section>
+
+{{ end }}
 {{ end }}

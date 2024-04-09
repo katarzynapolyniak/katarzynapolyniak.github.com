@@ -1,9 +1,6 @@
 ---
   title: "Fizjoterapia"
-  date: 2021-01-13T17:33:14+06:00
   featured: true
-#  thumbnail: /images/featured-post.jpg
-#  featureImage: /images/blog/blog-single.png
 ---
 
 Fizjoterapeutka, Instruktorka Animal Flow.

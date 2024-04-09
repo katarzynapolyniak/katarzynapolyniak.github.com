@@ -2,12 +2,12 @@
 enable: true
 instaImages:
   [
-    "images/insta/1.png",
-    "images/insta/1.jpeg",
-    "images/insta/2.jpeg",
-    "images/insta/3.jpeg",
-    "images/insta/4.jpeg",
-    "images/insta/5.jpeg",
+    "images/insta/1.jpg",
+    "images/insta/2.jpg",
+    "images/insta/3.jpg",
+    "images/insta/4.jpg",
+    "images/insta/5.jpg",
+    "images/insta/6.jpg",
   ]
 ---
 
