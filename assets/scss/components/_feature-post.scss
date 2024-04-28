@@ -1,5 +1,5 @@
 .featured {
-  padding: 80px 0 100px;
+  padding: 80px 0 0px;
   @include desktop {
     padding: 50px 0 0px;
   }
@@ -8,13 +8,14 @@
   }
   &-post {
     display: flex;
-    align-items: center;
     @include desktop {
       display: block;
       text-align: center;
     }
     &-content {
       flex: 1;
+      font-size: 20px;
+      color: $text-color-dark;
       margin-right: 100px;
       @include desktop-lg {
         margin-right: 50px;
@@ -31,6 +32,7 @@
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 10px 25px 40px rgba($color: #12151a, $alpha: 0.15);
+      width: 60%;
       img {
         width: 100%;
       }
